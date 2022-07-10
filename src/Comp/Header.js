@@ -3,10 +3,12 @@ import {Link} from "react-router-dom"
 import { useSelector } from "react-redux"
 export default function Header() {
     const state = useSelector(_s => _s)
-    const { menu, loggedin, role, user } = state
+    const { menu, loggedin, role } = state
+    // console.log
     return (
         <header>
-            <h1>Admin Panel</h1>
+             
+            {/* <h1>Admin Panel</h1>
             <div>
                 <Link to="/" >Home</Link>
                 <Link to="/Admin/Admin" >Admin</Link>
@@ -19,7 +21,7 @@ export default function Header() {
                 <Link to="/Admin/Attendance" >Attendance</Link>
                 <Link to="/Admin/Planner" >Planner</Link>
                 <Link to="/Admin/Logout" >Logout</Link>
-            </div>
+            </div> */}
          </header>
     )
 }

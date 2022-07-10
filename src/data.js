@@ -41,7 +41,7 @@ const data={
     ],
     batch:[],
     menu:[
-       { lable:"Admin", to:"/dmin"},
+       { lable:"Admin", to:"/Admin"},
        { lable:"Faculty" ,to:"/Faculty"},
        { lable:"Student" ,to:"/Student"},
        { lable:"Courses" ,to:"/Courses"},
